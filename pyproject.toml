@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=61.0.0", "wheel"]
+requires = ["setuptools>=77.0.3", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -10,7 +10,7 @@ readme = "README.md"
 authors = [
     { name = "Soumik Basu", email = "soumikbasu2003@gmail.com" }
 ]
-license = { text = "MIT" }
+license = "MIT"
 classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
@@ -27,8 +27,7 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com"
-"Bug Tracker" = "https://github.com/issues"
+Homepage = "https://github.com/Basusoumik2003/devflow-adk"
 
 [project.scripts]
 devflow-launch = "app.cli:main"
